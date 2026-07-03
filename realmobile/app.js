@@ -121,8 +121,9 @@
     if (!rules) return 0;
     const scores = new Set();
     rules.split(/\n/).forEach((ln) => {
-      const m = ln.match(/总分\s*[:：]\s*([0-9.]+)/);
-      if (m) scores.add(m[1]);
+      // steps use 总分 or 分数; ignore veto lines (score 0)
+      const m = ln.match(/→\s*(?:总分|分数)\s*[:：]\s*([0-9.]+)/);
+      if (m && parseFloat(m[1]) > 0) scores.add(m[1]);
     });
     return scores.size;
   }
@@ -134,18 +135,18 @@
     const lines = rules.split(/\n/).map((l) => l.trim()).filter(Boolean);
     let mode = "step";
     for (const ln of lines) {
-      if (/^评分规则/.test(ln)) { mode = "step"; continue; }
+      if (/^(评分规则|分段评分规则)/.test(ln)) { mode = "step"; continue; }
       if (/^一票否决/.test(ln)) { mode = "veto"; continue; }
-      const m = ln.match(/^(.*?)\s*→\s*总分\s*[:：]\s*([0-9.]+)\s*$/);
+      const m = ln.match(/^-?\s*(.*?)\s*→\s*(?:总分|分数)\s*[:：]\s*([0-9.]+)\s*$/);
       if (m) {
         const text = m[1].trim();
-        if (mode === "veto") out.veto.push(text);
+        if (mode === "veto" || parseFloat(m[2]) === 0) out.veto.push(text);
         else out.steps.push({ text, score: m[2] });
         continue;
       }
       if (mode === "veto") {
         if (/^暂无$/.test(ln)) continue;
-        out.veto.push(ln);
+        out.veto.push(ln.replace(/^-\s*/, ""));
       } else if (out.steps.length) {
         // continuation of previous step
         out.steps[out.steps.length - 1].text += " " + ln;
@@ -223,7 +224,7 @@
     try {
       const [lb, tf] = await Promise.all([
         fetch("leaderboard.json?v=5").then((r) => r.json()),
-        fetch("tasks.json?v=7").then((r) => r.json()),
+        fetch("tasks.json?v=8").then((r) => r.json()),
       ]);
       LB = lb.leaderboard || []; DOM = lb.domains || [];
       TASKS = (tf.tasks || []).sort((a, b) => a.id - b.id);
