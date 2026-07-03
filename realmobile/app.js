@@ -223,7 +223,7 @@
     try {
       const [lb, tf] = await Promise.all([
         fetch("leaderboard.json?v=5").then((r) => r.json()),
-        fetch("tasks.json?v=6").then((r) => r.json()),
+        fetch("tasks.json?v=7").then((r) => r.json()),
       ]);
       LB = lb.leaderboard || []; DOM = lb.domains || [];
       TASKS = (tf.tasks || []).sort((a, b) => a.id - b.id);
