@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RealMobile · Trajectory Detail</title>
+  <link rel="icon" type="image/png" href="https://seerray-lab.github.io/Xiaomi-GUI-0/assets/logo/xiaomi_logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css?v=17" />
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../index.html#top">
+        <img class="brand-logo" src="https://seerray-lab.github.io/Xiaomi-GUI-0/assets/logo/xiaomi_logo.svg" alt="Xiaomi logo" />
+        <span>RealMobile</span>
+        <span class="sep">/</span>
+        <span class="sub">Trajectory Viewer</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+      <div class="nav-links" id="navlinks">
+        <a href="../index.html#leaderboard">Leaderboard</a>
+        <a class="nav-cta" href="../index.html#top">↩ Back to RealMobile</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="page-head" style="padding-bottom:14px">
+      <a class="back-link" href="index.html"><i class="fas fa-arrow-left"></i> All tasks</a>
+    </div>
+    <div id="detail">
+      <div class="spinner-wrap"><div class="spinner"></div>Loading trajectory…</div>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>RealMobile</strong> · Trajectory Viewer</p>
+    <p class="footer-fine">Trajectories from <a href="https://huggingface.co/datasets/SeerRay-Lab/RealMobile" target="_blank" rel="noopener">SeerRay-Lab/RealMobile</a> · part of <a href="../index.html">the RealMobile benchmark</a></p>
+  </footer>
+
+  <script src="js/config.js?v=17"></script>
+  <script src="js/util.js?v=17"></script>
+  <script src="js/task.js?v=17"></script>
+</body>
+</html>
