@@ -17,10 +17,10 @@
 
 ## 📰 News
 
-- **2026-07** — 🎬 Launched the [**RealMobile Trajectory Viewer**](https://seerray-lab.github.io/Xiaomi-GUI-0/realmobile/viewer/) — a task-first replay of how all 16 models attempted each of the 100 tasks, step by step on real devices.
+- **2026-07** — 🎬 Launched the [**RealMobile Trajectory Viewer**](https://seerray-lab.github.io/Xiaomi-GUI/realmobile/viewer/) — a task-first replay of how all 16 models attempted each of the 100 tasks, step by step on real devices.
 - **2026-06** — 🚀 Released the **Xiaomi-GUI-0** [technical report](https://arxiv.org/abs/2606.31410), code, and evaluation suites.
-- **2026-06** — 🧪 Released [**RealMobile**](https://github.com/SeerRay-Lab/Xiaomi-GUI-0/tree/main/realmobile), a real-device benchmark across 14 live apps with sub-goal scoring.
-- **2026-06** — 🌐 Launched the [project page](https://seerray-lab.github.io/Xiaomi-GUI-0/) and the [HuggingFace collection](https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0).
+- **2026-06** — 🧪 Released [**RealMobile**](https://github.com/SeerRay-Lab/Xiaomi-GUI/tree/main/realmobile), a real-device benchmark across 14 live apps with sub-goal scoring.
+- **2026-06** — 🌐 Launched the [project page](https://seerray-lab.github.io/Xiaomi-GUI/) and the [HuggingFace collection](https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0).
 
 ## ✨ What Is Xiaomi-GUI-0?
 
