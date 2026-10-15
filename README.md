@@ -10,7 +10,7 @@
   <a href="https://seerray-lab.github.io/Xiaomi-GUI/"><img src="https://img.shields.io/badge/🌐_Project_Page-Xiaomi--GUI--0-ff6700?style=flat-square" alt="Project Page"/></a>
   <a href="https://arxiv.org/abs/2606.31410"><img src="https://img.shields.io/badge/arXiv-2606.31410-b31b1b?style=flat-square&logo=arxiv" alt="arXiv"/></a>
   <a href="https://huggingface.co/collections/SeerRay-Lab/xiaomi-gui-0"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model_coming_soon-FFD21E?style=flat-square" alt="HuggingFace"/></a>
-  <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI-0"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github" alt="GitHub"/></a>
+  <a href="https://github.com/SeerRay-Lab/Xiaomi-GUI"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=flat-square&logo=github" alt="GitHub"/></a>
 </p>
 
 </div>
@@ -64,8 +64,8 @@ RealMobile is built from real user traffic, hand-crafted for reproducible evalua
 | **Overall** | **100** | **1.93** | **57%** | |
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/app_freq_pie.png" width="44%" alt="Application frequency"/>
-  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/multiapp_bar.png" width="40%" alt="Applications per task"/>
+  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI/gh-pages/assets/figs/app_freq_pie.png" width="44%" alt="Application frequency"/>
+  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI/gh-pages/assets/figs/multiapp_bar.png" width="40%" alt="Applications per task"/>
 </div>
 
 ## 🗂️ Repository Layout

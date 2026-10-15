@@ -7,8 +7,8 @@
 *Built from real user traffic, hand-rewritten for reproducibility, and executed on **physical devices against live applications** — not emulators.*
 
 <p>
-  <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/realmobile/"><img src="https://img.shields.io/badge/🌐_Benchmark_Site-RealMobile-ff6700?style=flat-square" alt="Benchmark Site"/></a>
-  <a href="https://seerray-lab.github.io/Xiaomi-GUI-0/"><img src="https://img.shields.io/badge/📄_Project-Xiaomi--GUI--0-4a4a4a?style=flat-square" alt="Project Page"/></a>
+  <a href="https://seerray-lab.github.io/Xiaomi-GUI/realmobile/"><img src="https://img.shields.io/badge/🌐_Benchmark_Site-RealMobile-ff6700?style=flat-square" alt="Benchmark Site"/></a>
+  <a href="https://seerray-lab.github.io/Xiaomi-GUI/"><img src="https://img.shields.io/badge/📄_Project-Xiaomi--GUI--0-4a4a4a?style=flat-square" alt="Project Page"/></a>
   <a href="https://arxiv.org/abs/2606.31410"><img src="https://img.shields.io/badge/arXiv-2606.31410-b31b1b?style=flat-square&logo=arxiv" alt="arXiv"/></a>
 </p>
 
@@ -44,11 +44,11 @@ Instead of a single pass/fail signal, each task is decomposed into ordered **sub
 | **Overall** | **100** | **1.93** | **57%** | |
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/app_freq_pie.png" width="44%" alt="Application frequency"/>
-  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI-0/gh-pages/assets/figs/multiapp_bar.png" width="40%" alt="Applications per task"/>
+  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI/gh-pages/assets/figs/app_freq_pie.png" width="44%" alt="Application frequency"/>
+  <img src="https://raw.githubusercontent.com/SeerRay-Lab/Xiaomi-GUI/gh-pages/assets/figs/multiapp_bar.png" width="40%" alt="Applications per task"/>
 </div>
 
-> 🔎 Browse all 100 tasks — queries, apps, and sub-goal rubrics — on the interactive [**benchmark site**](https://seerray-lab.github.io/Xiaomi-GUI-0/realmobile/).
+> 🔎 Browse all 100 tasks — queries, apps, and sub-goal rubrics — on the interactive [**benchmark site**](https://seerray-lab.github.io/Xiaomi-GUI/realmobile/).
 
 ## 🗂️ Repository Layout
 
